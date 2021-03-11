@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF28274825FA593100865167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF28274725FA593100865167 /* AppDelegate.swift */; };
+		BF28274A25FA593100865167 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF28274925FA593100865167 /* SceneDelegate.swift */; };
+		BF28274C25FA593100865167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF28274B25FA593100865167 /* ContentView.swift */; };
+		BF28274E25FA593300865167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF28274D25FA593300865167 /* Assets.xcassets */; };
+		BF28275125FA593300865167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF28275025FA593300865167 /* Preview Assets.xcassets */; };
+		BF28275425FA593300865167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF28275225FA593300865167 /* LaunchScreen.storyboard */; };
+		BF28275F25FA593300865167 /* HACKERRNEWSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF28275E25FA593300865167 /* HACKERRNEWSTests.swift */; };
+		BF28276A25FA593300865167 /* HACKERRNEWSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF28276925FA593300865167 /* HACKERRNEWSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF28275B25FA593300865167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF28273C25FA593100865167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF28274325FA593100865167;
+			remoteInfo = HACKERRNEWS;
+		};
+		BF28276625FA593300865167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF28273C25FA593100865167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF28274325FA593100865167;
+			remoteInfo = HACKERRNEWS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF28274425FA593100865167 /* HACKERRNEWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HACKERRNEWS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF28274725FA593100865167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF28274925FA593100865167 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF28274B25FA593100865167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF28274D25FA593300865167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF28275025FA593300865167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF28275325FA593300865167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF28275525FA593300865167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF28275A25FA593300865167 /* HACKERRNEWSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HACKERRNEWSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF28275E25FA593300865167 /* HACKERRNEWSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HACKERRNEWSTests.swift; sourceTree = "<group>"; };
+		BF28276025FA593300865167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF28276525FA593300865167 /* HACKERRNEWSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HACKERRNEWSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF28276925FA593300865167 /* HACKERRNEWSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HACKERRNEWSUITests.swift; sourceTree = "<group>"; };
+		BF28276B25FA593300865167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF28274125FA593100865167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF28275725FA593300865167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF28276225FA593300865167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF28273B25FA593100865167 = {
+			isa = PBXGroup;
+			children = (
+				BF28274625FA593100865167 /* HACKERRNEWS */,
+				BF28275D25FA593300865167 /* HACKERRNEWSTests */,
+				BF28276825FA593300865167 /* HACKERRNEWSUITests */,
+				BF28274525FA593100865167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF28274525FA593100865167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF28274425FA593100865167 /* HACKERRNEWS.app */,
+				BF28275A25FA593300865167 /* HACKERRNEWSTests.xctest */,
+				BF28276525FA593300865167 /* HACKERRNEWSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF28274625FA593100865167 /* HACKERRNEWS */ = {
+			isa = PBXGroup;
+			children = (
+				BF28274725FA593100865167 /* AppDelegate.swift */,
+				BF28274925FA593100865167 /* SceneDelegate.swift */,
+				BF28274B25FA593100865167 /* ContentView.swift */,
+				BF28274D25FA593300865167 /* Assets.xcassets */,
+				BF28275225FA593300865167 /* LaunchScreen.storyboard */,
+				BF28275525FA593300865167 /* Info.plist */,
+				BF28274F25FA593300865167 /* Preview Content */,
+			);
+			path = HACKERRNEWS;
+			sourceTree = "<group>";
+		};
+		BF28274F25FA593300865167 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF28275025FA593300865167 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF28275D25FA593300865167 /* HACKERRNEWSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF28275E25FA593300865167 /* HACKERRNEWSTests.swift */,
+				BF28276025FA593300865167 /* Info.plist */,
+			);
+			path = HACKERRNEWSTests;
+			sourceTree = "<group>";
+		};
+		BF28276825FA593300865167 /* HACKERRNEWSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF28276925FA593300865167 /* HACKERRNEWSUITests.swift */,
+				BF28276B25FA593300865167 /* Info.plist */,
+			);
+			path = HACKERRNEWSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF28274325FA593100865167 /* HACKERRNEWS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF28276E25FA593300865167 /* Build configuration list for PBXNativeTarget "HACKERRNEWS" */;
+			buildPhases = (
+				BF28274025FA593100865167 /* Sources */,
+				BF28274125FA593100865167 /* Frameworks */,
+				BF28274225FA593100865167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HACKERRNEWS;
+			productName = HACKERRNEWS;
+			productReference = BF28274425FA593100865167 /* HACKERRNEWS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF28275925FA593300865167 /* HACKERRNEWSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF28277125FA593300865167 /* Build configuration list for PBXNativeTarget "HACKERRNEWSTests" */;
+			buildPhases = (
+				BF28275625FA593300865167 /* Sources */,
+				BF28275725FA593300865167 /* Frameworks */,
+				BF28275825FA593300865167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF28275C25FA593300865167 /* PBXTargetDependency */,
+			);
+			name = HACKERRNEWSTests;
+			productName = HACKERRNEWSTests;
+			productReference = BF28275A25FA593300865167 /* HACKERRNEWSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF28276425FA593300865167 /* HACKERRNEWSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF28277425FA593300865167 /* Build configuration list for PBXNativeTarget "HACKERRNEWSUITests" */;
+			buildPhases = (
+				BF28276125FA593300865167 /* Sources */,
+				BF28276225FA593300865167 /* Frameworks */,
+				BF28276325FA593300865167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF28276725FA593300865167 /* PBXTargetDependency */,
+			);
+			name = HACKERRNEWSUITests;
+			productName = HACKERRNEWSUITests;
+			productReference = BF28276525FA593300865167 /* HACKERRNEWSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF28273C25FA593100865167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BF28274325FA593100865167 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BF28275925FA593300865167 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BF28274325FA593100865167;
+					};
+					BF28276425FA593300865167 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BF28274325FA593100865167;
+					};
+				};
+			};
+			buildConfigurationList = BF28273F25FA593100865167 /* Build configuration list for PBXProject "HACKERRNEWS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF28273B25FA593100865167;
+			productRefGroup = BF28274525FA593100865167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF28274325FA593100865167 /* HACKERRNEWS */,
+				BF28275925FA593300865167 /* HACKERRNEWSTests */,
+				BF28276425FA593300865167 /* HACKERRNEWSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF28274225FA593100865167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF28275425FA593300865167 /* LaunchScreen.storyboard in Resources */,
+				BF28275125FA593300865167 /* Preview Assets.xcassets in Resources */,
+				BF28274E25FA593300865167 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF28275825FA593300865167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF28276325FA593300865167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF28274025FA593100865167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF28274825FA593100865167 /* AppDelegate.swift in Sources */,
+				BF28274A25FA593100865167 /* SceneDelegate.swift in Sources */,
+				BF28274C25FA593100865167 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF28275625FA593300865167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF28275F25FA593300865167 /* HACKERRNEWSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF28276125FA593300865167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF28276A25FA593300865167 /* HACKERRNEWSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF28275C25FA593300865167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF28274325FA593100865167 /* HACKERRNEWS */;
+			targetProxy = BF28275B25FA593300865167 /* PBXContainerItemProxy */;
+		};
+		BF28276725FA593300865167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF28274325FA593100865167 /* HACKERRNEWS */;
+			targetProxy = BF28276625FA593300865167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF28275225FA593300865167 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF28275325FA593300865167 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF28276C25FA593300865167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF28276D25FA593300865167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF28276F25FA593300865167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HACKERRNEWS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HACKERRNEWS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.HACKERRNEWS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF28277025FA593300865167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HACKERRNEWS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HACKERRNEWS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.HACKERRNEWS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF28277225FA593300865167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				INFOPLIST_FILE = HACKERRNEWSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.HACKERRNEWSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HACKERRNEWS.app/HACKERRNEWS";
+			};
+			name = Debug;
+		};
+		BF28277325FA593300865167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				INFOPLIST_FILE = HACKERRNEWSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.HACKERRNEWSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HACKERRNEWS.app/HACKERRNEWS";
+			};
+			name = Release;
+		};
+		BF28277525FA593300865167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				INFOPLIST_FILE = HACKERRNEWSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.HACKERRNEWSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HACKERRNEWS;
+			};
+			name = Debug;
+		};
+		BF28277625FA593300865167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				INFOPLIST_FILE = HACKERRNEWSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.HACKERRNEWSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HACKERRNEWS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF28273F25FA593100865167 /* Build configuration list for PBXProject "HACKERRNEWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF28276C25FA593300865167 /* Debug */,
+				BF28276D25FA593300865167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF28276E25FA593300865167 /* Build configuration list for PBXNativeTarget "HACKERRNEWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF28276F25FA593300865167 /* Debug */,
+				BF28277025FA593300865167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF28277125FA593300865167 /* Build configuration list for PBXNativeTarget "HACKERRNEWSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF28277225FA593300865167 /* Debug */,
+				BF28277325FA593300865167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF28277425FA593300865167 /* Build configuration list for PBXNativeTarget "HACKERRNEWSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF28277525FA593300865167 /* Debug */,
+				BF28277625FA593300865167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF28273C25FA593100865167 /* Project object */;
+}
