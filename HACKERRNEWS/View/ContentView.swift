@@ -74,13 +74,17 @@ struct ContentView_Previews: PreviewProvider {
 
 struct loadingView: View {
     var body: some View {
-        VStack {
-            ProgressView().progressViewStyle(CircularProgressViewStyle(tint: .white))
-                .scaleEffect(1)
-            
-            Text("Loading...")
-                .opacity(0.8)
-                .padding(.top, 5)
+        ZStack {
+            Color.black.opacity(0.8).ignoresSafeArea()
+            VStack {
+                ProgressView().progressViewStyle(CircularProgressViewStyle(tint: .white))
+                    .scaleEffect(1)
+                
+                Text("Loading...")
+                    .foregroundColor(.white)
+                    .opacity(0.9)
+                    .padding(.top, 6)
+            }
         }
     }
 }
