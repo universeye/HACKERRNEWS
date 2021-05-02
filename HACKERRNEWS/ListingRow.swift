@@ -10,11 +10,11 @@ import SwiftUI
 struct ListingRow: View {
     
     var post = NetWorkManager().posts[0]
-    
+    @State var isShow: Bool
     var body: some View {
-        NavigationLink(
-            destination: DetailView(url: post.url) ,
-            label: {
+       // NavigationLink(
+        //    destination: SFSafariView(url: URL(string: post.url)!) ,
+       //     label: {
                 HStack {
                     Text("\(post.points)").bold()
                         .frame(width: 60, height: 60)
@@ -22,12 +22,19 @@ struct ListingRow: View {
                         .cornerRadius(20)
                     Text(post.title)
                 }
-            })
+                .onTapGesture {
+                    isShow.toggle()
+                }
+                .sheet(isPresented: $isShow, content: {
+                    SFSafariView(url: URL(string: post.url)!)
+                })
+           // }
+        //)
     }
 }
 
 struct ListingRow_Previews: PreviewProvider {
     static var previews: some View {
-        ListingRow()
+        ListingRow(isShow: false)
     }
 }

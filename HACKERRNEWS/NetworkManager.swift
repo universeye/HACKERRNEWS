@@ -17,13 +17,14 @@ class NetWorkManager: ObservableObject {
     func fetchData() {
         let url = "https://hn.algolia.com/api/v1/search?tags=front_page"
         
-        AF.request(url).responseJSON { (response) in
+        AF.request(url).responseJSON { [weak self] (response) in
+            guard let self = self else { return }
             if let json = response.data {
                 Array(1...20).forEach { n in
                     if let finalResults = self.parseJson(json, index: n) {
                         
-                        self.posts.append(contentsOf: finalResults)
-                        //print("Final Results = \(finalResults)")
+                        self.posts.append(finalResults)
+                        print("Final Results = \(finalResults)")
                     }
                 }
                 //DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
@@ -37,7 +38,7 @@ class NetWorkManager: ObservableObject {
     }
     
     
-    func parseJson(_ data: Data, index: Int) -> [Post]? {
+    func parseJson(_ data: Data, index: Int) -> Post? {
         do {
             let json = try JSON(data: data)
             if let title = json["hits"][index]["title"].string,
@@ -46,7 +47,7 @@ class NetWorkManager: ObservableObject {
                let points = json["hits"][index]["points"].int
             {
                 
-                let item = [Post(objectID: objectID, title: title, url: url, points: points)]
+                let item = Post(objectID: objectID, title: title, url: url, points: points)
                 
                return item
             }

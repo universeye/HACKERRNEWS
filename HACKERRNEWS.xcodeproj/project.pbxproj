@@ -22,6 +22,7 @@
 		BF28277B25FA5A1F00865167 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF28277A25FA5A1F00865167 /* PostData.swift */; };
 		BF28279025FA5CC900865167 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF28278F25FA5CC900865167 /* NetworkManager.swift */; };
 		BF50324AEB3CC3AC6B181F59 /* Pods_HACKERRNEWS_HACKERRNEWSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1024D0D3D3553B91F7D82799 /* Pods_HACKERRNEWS_HACKERRNEWSUITests.framework */; };
+		BF7A365326341C76003DB437 /* SFSafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7A365226341C76003DB437 /* SFSafariView.swift */; };
 		BF7E6AE425FCFB8F00345510 /* BookmarkedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E6AE325FCFB8F00345510 /* BookmarkedView.swift */; };
 		BFD8BFDC25FE07B8006C3660 /* ListingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8BFDB25FE07B8006C3660 /* ListingRow.swift */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,7 @@
 		BF28276B25FA593300865167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF28277A25FA5A1F00865167 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		BF28278F25FA5CC900865167 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BF7A365226341C76003DB437 /* SFSafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariView.swift; sourceTree = "<group>"; };
 		BF7E6AE325FCFB8F00345510 /* BookmarkedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkedView.swift; sourceTree = "<group>"; };
 		BFD8BFDB25FE07B8006C3660 /* ListingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,10 +157,6 @@
 				BFD8BFDB25FE07B8006C3660 /* ListingRow.swift */,
 				BF28277A25FA5A1F00865167 /* PostData.swift */,
 				BF28279425FA620000865167 /* View */,
-				BF28274B25FA593100865167 /* ContentView.swift */,
-				BF05774B25FB0910002F3EF5 /* DetailView.swift */,
-				BF05775825FB0A2D002F3EF5 /* WebView.swift */,
-				BF7E6AE325FCFB8F00345510 /* BookmarkedView.swift */,
 				BF28274D25FA593300865167 /* Assets.xcassets */,
 				BF28275225FA593300865167 /* LaunchScreen.storyboard */,
 				BF28274725FA593100865167 /* AppDelegate.swift */,
@@ -198,6 +196,11 @@
 		BF28279425FA620000865167 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF28274B25FA593100865167 /* ContentView.swift */,
+				BF05774B25FB0910002F3EF5 /* DetailView.swift */,
+				BF05775825FB0A2D002F3EF5 /* WebView.swift */,
+				BF7E6AE325FCFB8F00345510 /* BookmarkedView.swift */,
+				BF7A365226341C76003DB437 /* SFSafariView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 				BF28279025FA5CC900865167 /* NetworkManager.swift in Sources */,
 				BFD8BFDC25FE07B8006C3660 /* ListingRow.swift in Sources */,
 				BF28274A25FA593100865167 /* SceneDelegate.swift in Sources */,
+				BF7A365326341C76003DB437 /* SFSafariView.swift in Sources */,
 				BF28274C25FA593100865167 /* ContentView.swift in Sources */,
 				BF05775925FB0A2D002F3EF5 /* WebView.swift in Sources */,
 			);
@@ -619,7 +623,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HACKERRNEWS/Preview Content\"";
-				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				DEVELOPMENT_TEAM = N492VC6PS9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HACKERRNEWS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -641,7 +645,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HACKERRNEWS/Preview Content\"";
-				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				DEVELOPMENT_TEAM = N492VC6PS9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HACKERRNEWS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

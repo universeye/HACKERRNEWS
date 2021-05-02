@@ -11,12 +11,15 @@ struct ContentView: View {
     
     @StateObject var networkManager = NetWorkManager()
     
+    
     var body: some View {
         NavigationView {
             ZStack {
                 List(networkManager.posts) { post in
-                    ListingRow(post: post)
+                    ListingRow(post: post, isShow: false)
+                    
                 } //List
+                
                 .listStyle(PlainListStyle())
                 .navigationBarTitle("HACKERRNEWS")
                 .toolbar {
@@ -24,6 +27,7 @@ struct ContentView: View {
                         Button("Help") {
                             print("Help tapped!")
                         } //Help button
+                        .disabled(true)
                         .redacted(reason: networkManager.isLoading ? .placeholder : [])
                         
                         NavigationLink(
@@ -31,8 +35,9 @@ struct ContentView: View {
                             label: {
                                 Image(systemName: "bookmark")
                             })
+                            .disabled(true)
                     } //ToolbarItemGroup
-                } //.toolbar
+                }  //.toolbar
                 .navigationBarItems(trailing:
                                         Button(action: {
                                             networkManager.posts = []
@@ -54,6 +59,8 @@ struct ContentView: View {
         .onAppear(perform: {
             networkManager.fetchData()
         })
+        
+        
     }
 }
 
